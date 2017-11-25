@@ -10,9 +10,9 @@
     tools:context="com.numeris_ci.myapplication.DynamicListViewActivity">
 
     <EditText
+        android:id="@+id/itemEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/itemEditText"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -21,18 +21,18 @@
         android:hint="@string/addItemHint"/>
 
     <Button
+        android:id="@+id/addIemButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Item"
-        android:id="@+id/addIemButton"
+        android:text="@string/button_text"
         android:layout_below="@+id/itemEditText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
     <ListView
+        android:id="@+id/itemListView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/itemListView"
         android:layout_below="@+id/addIemButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
